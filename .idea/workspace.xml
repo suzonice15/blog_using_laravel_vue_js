@@ -4688,6 +4688,7 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/voku/portable-ascii/src/voku/helper/data/x1d4.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/voku/portable-ascii/src/voku/helper/data/x1d5.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/voku/portable-ascii/src/voku/helper/data/x1d6.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/blog_using_laravel_vue_js.iml" afterPath="$PROJECT_DIR$/.idea/blog_using_laravel_vue_js.iml" />
     </list>
     <ignored path="blog_using_laravel_vue_js.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -5030,15 +5031,15 @@
       <option name="presentableId" value="Default" />
       <updated>1601731009263</updated>
       <workItem from="1601731026886" duration="19000" />
-      <workItem from="1601732406487" duration="1438000" />
+      <workItem from="1601732406487" duration="1919000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1457000" />
+    <option name="totallyTimeSpent" value="1938000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="20" width="1326" height="688" extended-state="0" />
+    <frame x="10" y="20" width="1326" height="688" extended-state="1" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24961832" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
