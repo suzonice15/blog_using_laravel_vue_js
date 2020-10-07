@@ -138,7 +138,7 @@
                     </div>
                 </div>
                 <div class="card-body">
-                    <example-component></example-component>
+                    <admin-home></admin-home>
                     Start creating your amazing application!
                 </div>
                 <!-- /.card-body -->
