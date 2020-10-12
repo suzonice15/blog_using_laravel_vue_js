@@ -1,8 +1,21 @@
-import adminHome  from '.components/admin/AdminHome.vue',
+import adminhomec  from './components/admin/AdminHome.vue';
+import categorylist  from './components/admin/category/index.vue';
+import AddCategory  from './components/admin/category/create.vue';
 
 export const routes = [
     {
         path:'/home',
-        component:adminHome
+        component:adminhomec
+    },
+    {
+        path:'/admin/categories',
+        component:categorylist
     }
+    ,
+    {
+        path:'/admin/category/create',
+        component:AddCategory
+    }
+
+
 ]

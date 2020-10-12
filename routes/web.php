@@ -20,3 +20,33 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+/****=============== category section    =====================  ******/
+Route::get('admin/categories', 'admin\CategoryController@index');
+Route::post('category-urlcheck', 'admin\CategoryController@urlCheck');
+Route::get('admin/category/create', 'admin\CategoryController@create');
+Route::post('admin/category/store', 'admin\CategoryController@store');
+Route::post('admin/category/update/{id}', 'admin\CategoryController@update');
+Route::get('admin/category/{id}', 'admin\CategoryController@edit');
+Route::get('/admin/category/delete/{id}', 'admin\CategoryController@delete');
+Route::get('category/pagination/fetch_data', 'admin\CategoryController@fetch_data');
+
+
+
+/****=============== post section    =====================  ******/
+Route::get('admin/posts', 'admin\PostController@index');
+Route::post('post-urlcheck', 'admin\PostController@urlCheck')->name('post.urlcheck');
+Route::post('post-foldercheck', 'admin\PostController@foldercheck')->name('post.foldercheck');
+Route::get('admin/post/create', 'admin\PostController@create');
+Route::post('admin/post/store', 'admin\PostController@store');
+Route::post('admin/post/update/{id}', 'admin\PostController@update');
+
+
+Route::get('/admin/post/{id}', 'admin\PostController@edit');
+Route::get('/admin/post/delete/{id}', 'admin\PostController@destroy');
+Route::get('posts/pagination', 'admin\PostController@pagination');
+
+
+
+
+Route::get('/{anypath}', 'HomeController@index')->where('path','.*');
