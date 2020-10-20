@@ -62,6 +62,16 @@
 
                     </li>
 
+                    <li class="nav-item has-treeview">
+                        <router-link to="/admin/posts" class="nav-link">
+                            <i class="nav-icon fas fa-tachometer-alt"></i>
+                            <p>
+                                Posts
+                                <i class="right fas fa-angle-left"></i>
+                            </p>
+                        </router-link>
+
+                    </li>
 
 
                     <li class="nav-item has-treeview">

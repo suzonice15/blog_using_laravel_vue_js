@@ -32,10 +32,8 @@ class PostController extends Controller
 
     public function index()
     {
-        $data['main'] = 'Posts';
-        $data['active'] = 'All Posts';
-        $data['title'] = ' ';
-        $data['products']= DB::table('post')->orderBy('post.post_id', 'desc')->paginate(10);
+
+        $data['posts']= DB::table('post')->orderBy('post.post_id', 'desc')->get();
 
         return response()->json($data);
     }

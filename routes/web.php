@@ -34,7 +34,7 @@ Route::get('category/pagination/fetch_data', 'admin\CategoryController@fetch_dat
 
 
 /****=============== post section    =====================  ******/
-Route::get('admin/posts', 'admin\PostController@index');
+Route::get('admin/posts/list', 'admin\PostController@index');
 Route::post('post-urlcheck', 'admin\PostController@urlCheck')->name('post.urlcheck');
 Route::post('post-foldercheck', 'admin\PostController@foldercheck')->name('post.foldercheck');
 Route::get('admin/post/create', 'admin\PostController@create');
