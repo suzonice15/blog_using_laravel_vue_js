@@ -34,7 +34,7 @@ class CategoryController extends Controller
         $data['title'] = '  ';
        // $data['users']=DB::table('category')->orderBy('cateo','desc')->get();
       //  return view('admin.user.index', $data);
-        $data['categories']= DB::table('category')->orderBy('category_id', 'desc')->paginate(10);
+        $data['categories']= DB::table('category')->orderBy('category_id', 'desc')->get();
         return response()->json($data);
     }
 
@@ -63,7 +63,7 @@ class CategoryController extends Controller
         $data['active'] = 'All Categories';
         $data['title'] = '  ';
         $data['categories']=DB::table('category')->orderBy('category_title','ASC')->get();
-        return view('admin.category.create', $data);
+       // return view('admin.category.create', $data);
 
     }
 
@@ -75,20 +75,27 @@ class CategoryController extends Controller
      */
     public function store(Request $request)
     {
+
+        $validatedData = $request->validate([
+            'category_title' => 'required|min:5',
+
+        ]);
         $data['category_title']=$request->category_title;
-        $data['category_name']=$request->category_name;
-
-        $data['rank_order']=$request->rank_order;
-        $data['status']=$request->status;
-        $data['seo_title']=$request->seo_title;
-        $data['seo_meta_title']=$request->seo_meta_title;
-        $data['seo_keywords']=$request->seo_keywords;
-        $data['seo_content']=$request->seo_content;
-        $data['seo_meta_content']=$request->seo_meta_content;
 
 
 
-            $data['registered_date']=date('Y-m-d');
+//        $data['category_name']=$request->category_name;
+//        $data['rank_order']=$request->rank_order;
+//        $data['status']=$request->status;
+//        $data['seo_title']=$request->seo_title;
+//        $data['seo_meta_title']=$request->seo_meta_title;
+//        $data['seo_keywords']=$request->seo_keywords;
+//        $data['seo_content']=$request->seo_content;
+//        $data['seo_meta_content']=$request->seo_meta_content;
+//        $data['registered_date']=date('Y-m-d');
+
+
+
         $result =DB::table('category')->insert($data);
         if ($result) {
             return redirect('admin/categories')
@@ -97,6 +104,7 @@ class CategoryController extends Controller
             return redirect('admin/categories')
                 ->with('error', 'No successfully.');
         }
+
     }
 
     /**
@@ -118,21 +126,9 @@ class CategoryController extends Controller
      */
     public function edit($id)
     {
-        $user_id=AdminHelper::Admin_user_autherntication();
-        $url=  URL::current();
-
-        if($user_id < 1){
-            //  return redirect('admin');
-            Redirect::to('admin')->with('redirect',$url)->send();
-
-        }
 
         $data['category']=DB::table('category')->where('category_id',$id)->first();
-        $data['main'] = 'Users';
-        $data['active'] = 'Update user';
-        $data['title'] = 'Update User Registration Form';
-        $data['categories']=DB::table('category')->orderBy('category_title','ASC')->get();
-        return view('admin.category.edit', $data);
+        return response()->json($data);
     }
 
     /**
@@ -144,23 +140,28 @@ class CategoryController extends Controller
      */
     public function update(Request $request, $id)
     {
+//        $data['category_title']=$request->category_title;
+//        $data['category_name']=$request->category_name;
+//        $data['rank_order']=$request->rank_order;
+//        $data['status']=$request->status;
+//        $data['seo_title']=$request->seo_title;
+//        $data['seo_meta_title']=$request->seo_meta_title;
+//        $data['seo_keywords']=$request->seo_keywords;
+//        $data['seo_content']=$request->seo_content;
+//        $data['seo_meta_content']=$request->seo_meta_content;
+//        $data['registered_date']=date('Y-m-d');
+        $validatedData = $request->validate([
+            'category_title' => 'required|min:5',
+
+        ]);
         $data['category_title']=$request->category_title;
-        $data['category_name']=$request->category_name;
-        $data['rank_order']=$request->rank_order;
-        $data['status']=$request->status;
-        $data['seo_title']=$request->seo_title;
-        $data['seo_meta_title']=$request->seo_meta_title;
-        $data['seo_keywords']=$request->seo_keywords;
-        $data['seo_content']=$request->seo_content;
-        $data['seo_meta_content']=$request->seo_meta_content;
-        $data['registered_date']=date('Y-m-d');
+
         $result= DB::table('category')->where('category_id',$id)->update($data);
         if ($result) {
-            return redirect('admin/categories')
-                ->with('success', 'Updated successfully.');
+            return response()->json(['success'=>'success']);
         } else {
-            return redirect('admin/categories')
-                ->with('error', 'No successfully.');
+            return response()->json(['error'=>'wrong']);
+
         }
     }
 
@@ -173,22 +174,12 @@ class CategoryController extends Controller
 
     public function delete($id)
     {
-        $user_id=AdminHelper::Admin_user_autherntication();
-        $url=  URL::current();
-
-        if($user_id < 1){
-            //  return redirect('admin');
-            Redirect::to('admin')->with('redirect',$url)->send();
-
-        }
 
         $result=DB::table('category')->where('category_id',$id)->delete();
         if ($result) {
-            return redirect('admin/categories')
-                ->with('success', 'Deleted successfully.');
+            return response()->json(['success'=>'ok']) ;
         } else {
-            return redirect('admin/categories')
-                ->with('error', 'No successfully.');
+            return response()->json(['error'=>'ok']) ;
         }
 
     }

@@ -22,13 +22,13 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 /****=============== category section    =====================  ******/
-Route::get('admin/categories', 'admin\CategoryController@index');
+Route::get('/categories', 'admin\CategoryController@index');
 Route::post('category-urlcheck', 'admin\CategoryController@urlCheck');
 Route::get('admin/category/create', 'admin\CategoryController@create');
 Route::post('admin/category/store', 'admin\CategoryController@store');
-Route::post('admin/category/update/{id}', 'admin\CategoryController@update');
-Route::get('admin/category/{id}', 'admin\CategoryController@edit');
-Route::get('/admin/category/delete/{id}', 'admin\CategoryController@delete');
+Route::post('/category/update/{id}', 'admin\CategoryController@update');
+Route::get('/category/edit/{id}', 'admin\CategoryController@edit');
+ Route::get('/admin/category/delete/{id}', 'admin\CategoryController@delete');
 Route::get('category/pagination/fetch_data', 'admin\CategoryController@fetch_data');
 
 
@@ -49,4 +49,4 @@ Route::get('posts/pagination', 'admin\PostController@pagination');
 
 
 
-Route::get('/{anypath}', 'HomeController@index')->where('path','.*');
+Route::get('/{any}', 'HomeController@index')->where('any','.*');

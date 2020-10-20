@@ -18,44 +18,25 @@
 
         <section class="content">
             <div class="container-fluid">
-                <div class="row">
+                <div class="row  justify-content-center">
                     <!-- left column -->
-                    <div class="col-md-6 justify-content-center">
+                    <div class="col-md-6">
                         <!-- general form elements -->
                         <div class="card card-primary">
                             <div class="card-header">
                                 <h3 class="card-title">Add New Category</h3>
                             </div>
-                            <!-- /.card-header -->
-                            <!-- form start -->
-                            <form role="form">
-                                <div class="card-body">
+
+                            <form role="form" @submit.prevent="addCategory()">
+                                <alert-error :form="form" message="There were some problems with your input."></alert-error>
+                                 <div class="card-body">
                                     <div class="form-group">
-                                        <label for="exampleInputEmail1">Email address</label>
-                                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="exampleInputPassword1">Password</label>
-                                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="exampleInputFile">File input</label>
-                                        <div class="input-group">
-                                            <div class="custom-file">
-                                                <input type="file" class="custom-file-input" id="exampleInputFile">
-                                                <label class="custom-file-label" for="exampleInputFile">Choose file</label>
-                                            </div>
-                                            <div class="input-group-append">
-                                                <span class="input-group-text" id="">Upload</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="form-check">
-                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                        <label for="category_title">Category  Name</label>
+                                        <input type="text" v-model="form.category_title" class="form-control" :class="{ 'is-invalid': form.errors.has('category_title') }" name="category_title" placeholder="Enter Category Name">
+                                        <has-error :form="form" field="category_title"></has-error>
                                     </div>
                                 </div>
-                                <!-- /.card-body -->
+
 
                                 <div class="card-footer">
                                     <button type="submit" class="btn btn-primary">Submit</button>
@@ -77,7 +58,28 @@
 
 <script>
     export default {
-        name: "create"
+        name: "create",
+        data(){
+            return {
+                form: new Form({
+                    category_title: ''
+                })
+            }
+        },
+        methods:{
+            addCategory(){
+                this.form.post('/admin/category/store')
+                    .then((response)=> {
+                    Toast.fire({
+                        icon: 'success',
+                        title: 'Category  Added  successfully'
+                    })
+                      this.$router.push('/admin/categories')
+                    })
+
+
+             }
+        }
     }
 </script>
 

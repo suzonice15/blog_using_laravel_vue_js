@@ -36,12 +36,20 @@
                                                 <tr role="row">
                                                      <th>Sl</th>
                                                      <th>Category Name</th>
+                                                     <th>Created Date</th>
+                                                     <th>Action</th>
                                                 </tr>
                                                 </thead>
                                                 <tbody>
-                                                <tr>
-                                                    <td>Gecko</td>
-                                                    <td>Firefox 1.0</td>
+                                                <tr v-for="(category,index) in getAllCategory" :key="category.category_id">
+                                                    <td>{{++index}}</td>
+                                                    <td> {{category.category_title}}</td>
+                                                    <td> {{category.registered_date | dateformate}}</td>
+                                                    <td>
+                                                        <router-link :to="`/admin/category/edit/${category.category_id}`" class="btn btn-success">Edit</router-link>
+                                                        <a href="" @click.prevent="CategoryDelete(category.category_id)" class="btn btn-danger">Delete</a>
+
+                                                    </td>
 
                                                 </tr>
                                                 </tbody>
@@ -69,7 +77,28 @@
 
 <script>
     export default {
-        name: "index"
+        name: "index",
+        mounted(){
+              this.$store.dispatch("allcategory")
+        },
+        computed:{
+            getAllCategory() {
+          return this.$store.getters.getCategory
+            }
+        },
+        methods:{
+            CategoryDelete(id){
+                axios.get('/admin/category/delete/'+id)
+                    .then((response)=>{
+                    this.$store.dispatch("allcategory")
+                    Toast.fire({
+                        icon: 'success',
+                        title: 'Category  Deleted  successfully'
+                    })
+                })
+            }
+
+        }
     }
 </script>
 
