@@ -26,11 +26,11 @@
 
                             <!-- /.card-header -->
                             <div class="card-body">
-                                <div id="example2_wrapper" class="dataTables_wrapper container-fluid dt-bootstrap4">
+                                <div id="example2_wrapper" class="container-fluid dt-bootstrap4">
 
                                     <div class="row">
                                         <div class="col-sm-12">
-                                            <table  class="table table-bordered table-hover  "
+                                            <table  class="table table-bordered table-hover"
                                                  >
                                                 <thead>
                                                 <tr role="row">

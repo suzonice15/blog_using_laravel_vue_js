@@ -2274,8 +2274,116 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: "create"
+  name: "create",
+  data: function data() {
+    return {
+      form: new Form({
+        post_title: '',
+        post_name: '',
+        post_name_check: '',
+        folder: 0
+      })
+    };
+  },
+  methods: {
+    addPost: function addPost() {
+      var _this = this;
+
+      this.form.post('/admin/post/store').then(function (response) {
+        Toast.fire({
+          icon: 'success',
+          title: 'Post  Added  successfully'
+        });
+
+        _this.$router.push('/admin/posts');
+      });
+    },
+    folderCheck: function folderCheck() {
+      var _this2 = this;
+
+      axios.get('/post-foldercheck').then(function (response) {
+        return _this2.form.folder = response.data;
+      });
+    },
+    seoUrl: function seoUrl() {
+      var text = this.form.post_title;
+      var word = text.toLowerCase().replace(/ /g, '-').replace(/[^\w-]+/g, '');
+      this.form.post_name = word;
+      axios.post('/post-urlcheck', {
+        post_name: word
+      }).then(function (response) {
+        if (response.data == 'yes') {
+          this.form.post_name_check = 'es';
+        }
+      })["catch"](function (error) {
+        console.log(error);
+      });
+    },
+    addSep: function addSep() {
+      var post = this.form.post_name_check;
+      return this.form.post_name = post + es;
+    }
+  }
 });
 
 /***/ }),
@@ -64499,8 +64607,7 @@ var render = function() {
               _c(
                 "div",
                 {
-                  staticClass:
-                    "dataTables_wrapper container-fluid dt-bootstrap4",
+                  staticClass: "container-fluid dt-bootstrap4",
                   attrs: { id: "example2_wrapper" }
                 },
                 [
@@ -64508,7 +64615,7 @@ var render = function() {
                     _c("div", { staticClass: "col-sm-12" }, [
                       _c(
                         "table",
-                        { staticClass: "table table-bordered table-hover  " },
+                        { staticClass: "table table-bordered table-hover" },
                         [
                           _vm._m(1),
                           _vm._v(" "),
@@ -64635,14 +64742,245 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c("div", [
+    _c("section", { staticClass: "content-header" }, [
+      _c("div", { staticClass: "container-fluid" }, [
+        _c("div", { staticClass: "row mb-2" }, [
+          _vm._m(0),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-sm-6" }, [
+            _c("ol", { staticClass: "breadcrumb float-sm-right" }, [
+              _c(
+                "li",
+                { staticClass: "breadcrumb-item" },
+                [
+                  _c("router-link", { attrs: { to: "/home" } }, [
+                    _vm._v("Home")
+                  ])
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c("li", { staticClass: "breadcrumb-item active" }, [
+                _vm._v("Post")
+              ])
+            ])
+          ])
+        ])
+      ])
+    ]),
+    _vm._v(" "),
+    _c("section", { staticClass: "content" }, [
+      _c("div", { staticClass: "container-fluid" }, [
+        _c("div", { staticClass: "row  justify-content-center" }, [
+          _c("div", { staticClass: "col-md-11" }, [
+            _c("div", { staticClass: "card card-primary" }, [
+              _vm._m(1),
+              _vm._v(" "),
+              _c(
+                "form",
+                {
+                  attrs: { role: "form" },
+                  on: {
+                    submit: function($event) {
+                      $event.preventDefault()
+                      return _vm.addPost()
+                    }
+                  }
+                },
+                [
+                  _c("alert-error", {
+                    attrs: {
+                      form: _vm.form,
+                      message: "There were some problems with your input."
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    {
+                      staticClass: "card-body",
+                      on: {
+                        mousemove: function($event) {
+                          return _vm.folderCheck()
+                        }
+                      }
+                    },
+                    [
+                      _c(
+                        "div",
+                        { staticClass: "form-group" },
+                        [
+                          _c("label", { attrs: { for: "post_title" } }, [
+                            _vm._v("Post  Name")
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            directives: [
+                              {
+                                name: "model",
+                                rawName: "v-model",
+                                value: _vm.form.post_title,
+                                expression: "form.post_title"
+                              }
+                            ],
+                            staticClass: "form-control",
+                            class: {
+                              "is-invalid": _vm.form.errors.has("post_title")
+                            },
+                            attrs: {
+                              id: "post_title",
+                              type: "text",
+                              name: "post_title",
+                              placeholder: "Enter Post  Name"
+                            },
+                            domProps: { value: _vm.form.post_title },
+                            on: {
+                              input: [
+                                function($event) {
+                                  if ($event.target.composing) {
+                                    return
+                                  }
+                                  _vm.$set(
+                                    _vm.form,
+                                    "post_title",
+                                    $event.target.value
+                                  )
+                                },
+                                function($event) {
+                                  return _vm.seoUrl()
+                                }
+                              ]
+                            }
+                          }),
+                          _vm._v(" "),
+                          _c("has-error", {
+                            attrs: { form: _vm.form, field: "post_title" }
+                          })
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "form-group" },
+                        [
+                          _c("label", { attrs: { for: "post_name" } }, [
+                            _vm._v("Post  Parmalink")
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            directives: [
+                              {
+                                name: "model",
+                                rawName: "v-model",
+                                value: _vm.form.post_name,
+                                expression: "form.post_name"
+                              }
+                            ],
+                            staticClass: "form-control",
+                            class: {
+                              "is-invalid": _vm.form.errors.has("post_name")
+                            },
+                            attrs: {
+                              id: "post_name",
+                              type: "text",
+                              name: "post_name",
+                              placeholder: "Enter Post  Parmalink"
+                            },
+                            domProps: { value: _vm.form.post_name },
+                            on: {
+                              input: function($event) {
+                                if ($event.target.composing) {
+                                  return
+                                }
+                                _vm.$set(
+                                  _vm.form,
+                                  "post_name",
+                                  $event.target.value
+                                )
+                              }
+                            }
+                          }),
+                          _vm._v(" "),
+                          _c("has-error", {
+                            attrs: { form: _vm.form, field: "post_name" }
+                          })
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "form-group" }, [
+                        _c("label", { attrs: { for: "post_name" } }, [
+                          _vm._v("Folder ")
+                        ]),
+                        _vm._v(" "),
+                        _c("input", {
+                          directives: [
+                            {
+                              name: "model",
+                              rawName: "v-model",
+                              value: _vm.form.folder,
+                              expression: "form.folder"
+                            }
+                          ],
+                          staticClass: "form-control",
+                          attrs: {
+                            id: "folder",
+                            type: "text",
+                            name: "post_name"
+                          },
+                          domProps: { value: _vm.form.folder },
+                          on: {
+                            input: function($event) {
+                              if ($event.target.composing) {
+                                return
+                              }
+                              _vm.$set(_vm.form, "folder", $event.target.value)
+                            }
+                          }
+                        })
+                      ])
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _vm._m(2)
+                ],
+                1
+              )
+            ])
+          ])
+        ])
+      ])
+    ])
+  ])
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", [_c("h1", [_vm._v("Category create")])])
+    return _c("div", { staticClass: "col-sm-6" }, [_c("h1", [_vm._v("Post")])])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "card-header" }, [
+      _c("h3", { staticClass: "card-title" }, [_vm._v("Add New Post")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "card-footer" }, [
+      _c(
+        "button",
+        { staticClass: "btn btn-primary", attrs: { type: "submit" } },
+        [_vm._v("Submit")]
+      )
+    ])
   }
 ]
 render._withStripped = true

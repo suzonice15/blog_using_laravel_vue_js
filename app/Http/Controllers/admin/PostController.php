@@ -61,16 +61,6 @@ class PostController extends Controller
      */
     public function create()
     {
-        $user_id = AdminHelper::Admin_user_autherntication();
-        $url = URL::current();
-
-        if ($user_id < 1) {
-            //  return redirect('admin');
-            Redirect::to('admin')->with('redirect', $url)->send();
-
-        }
-
-
 
 
 
@@ -163,23 +153,7 @@ class PostController extends Controller
 
 
 
-    /**
-     * Display the specified resource.
-     *
-     * @param int $id
-     * @return \Illuminate\Http\Response
-     */
-    public function show($id)
-    {
-        //
-    }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param int $id
-     * @return \Illuminate\Http\Response
-     */
     public function edit($id)
     {
 
@@ -194,13 +168,7 @@ class PostController extends Controller
         return view('admin.post.edit', $data);
     }
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param \Illuminate\Http\Request $request
-     * @param int $id
-     * @return \Illuminate\Http\Response
-     */
+
     public function update(Request $request, $product_id)
     {
         $product_row = DB::table('post')
@@ -313,12 +281,12 @@ class PostController extends Controller
 
     public function urlCheck(Request $request)
     {
-        $product_name = $request->get('url');
+        $product_name = $request->get('post_name');
         $result = DB::table('post')->where('post_name', $product_name)->first();
         if ($result) {
-            echo 'This product exit';
+            echo 'yes';
         } else {
-            echo '';
+            echo 'no';
         }
     }
 

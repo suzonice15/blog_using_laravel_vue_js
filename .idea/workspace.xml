@@ -2,259 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f38a601-bdc2-4647-b279-1fece3f1cdfd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/03c346858d93a7958ce1ad95c3d6f6bd.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/053f01030281e5359e885965bf523d54.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/0555e354e608dcac9f08c629e0212f5e.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/09f94e1ba769e73d16f990d223d5e599.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/0a122a25dfbd8332645c8e9b80ab4a31.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/0dfa803cb07ef5eef6169e3e1671ece7.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/0e020536d7f6da891a35a415c1d6931f.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/10141c78b00305989d251b34fd5c67ca.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/17f849f801f6165e2addb2c1dcbd6dc3.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/1b8a00650cc4101ab685a307f7b01c9f.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/1cbdcdfed3d7f83d5e7c00bda18ca134.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/1dd1ccf1f1bd6c8211a39b1995cc7549.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/1e3be8b396e134f813cea468ee54a313.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/22021712ae4b0af3b1f0b2e22bbd378f.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/22a15f3791b09c72397623e8bf2ff70b.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/22ae5aaad3010b4723816b1bbfa8c558.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/231bf87d7a433e2a338743eb64804a29.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/260823239c4436b81d82afcf49abbabf.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/2644d865986449a03558109db7089845.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/26ed196035181a24f947eabcbdeb0d50.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/27154bbb8396ac44c2046317318aae07.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/2b9a9a3774225a270ffe859335551fc3.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/2d53bd377eb6afa81b75bfcdaaa76894.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/2de4291d6401b558e52853ad91b020c6.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/3027f6ea4d386d0ff5c460fec2e9183b.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/327cbc43d66c0fa930522dfe3bde2996.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/347a13ea431601bb05d950dae4a96b8d.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/348882db5a4e1ca96f2e2d2e22095887.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/3759d73ba1aec1254ebb547c3c27bfd8.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/37bae2e5a0c854449893c6ea14508e78.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/380adb4ea96095ed3635630fe5bdce17.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/386cc5c40b71999e88dea52f454e00ef.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/388517b0529e74307e24a0af74110099.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/38d751253b6100d2792e2f3923114ce3.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/3934196164840a9208b64ae5d48a9055.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/39e847f904a3b83ef42dc482abab7407.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/3aca77627d82cf71a3fa241c8bd0f90d.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/40a40c8dde8659b85f39104f1c5800e5.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/431d526be0895cadf49d458f40a79d92.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/438c71bdc35939638053177592f98170.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/44709d3915ab6c494273425bd75c5614.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/451f8433c13de7253e35eedadc8d79c6.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/4649ee178796c4b671da67da3e274841.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/4a7bfd0841a9e4222bf91a98dd95a01d.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/4b50dfdb91166dbb45a952a67703a2ca.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/4dfccc0fcbe1cf3eeed14655ce95dd09.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/5009e3d304397d5197de315b2868dc8d.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/50652f433599f59b72fb806f9cbf4e98.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/583529887586626fd0d5126d52e15667.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/58ffb0ea0795ba3107ca70ffb5a4a857.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/59e8d3dc5926f5c949d3daab69c8e973.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/5b89574ef7a1b61445c8ef2de9227001.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/5bd95a54079e0de2e56400a374320ab1.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/64e979b4477df0ca4aeaedbc8d9d3aca.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/6714e90c0550032437b8ce135417f100.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/677b7ff4d0bc8828ff360613558fff13.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/68689a460f1b1bbc4ddfe823a6c8dc65.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/692cf6a6495ec91271fe54ab4a7b8677.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/69b49c46a9ddde828705d11c98c18025.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/6d72c40e7782d45cbca07e5e7f457de0.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/6f26c3f01b6d20631ce9b97868ed3ea0.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/71ef6c2f4b68f78765c2efe05dadd3ce.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/7450a0226299ece1e809d571fecfd122.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/75ed84b601192ccb07705ba5bbae8d1e.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/76e5198c26cad367fa472752728e4fa4.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/776f40821e9d7593904866e7bfd7c8c2.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/7afbe310cafb143ffdec5ffb86553c94.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/7c73b57ea0b77e20d6c1d22e066c28e4.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/7c9e3dc538b4f1a32bcd5eaa22850457.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/81f071075f19ba85b7220e914df6b155.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/873b73bda4ab5407fdc1d7245c0eb339.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/874f9bb02e04da0b6a7a212e71a4dbc4.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/88b04427407d3fc75187290d5c4b9e62.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/8aef86988426d4d3fac8e804ac86ef1b.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/8e512ccd7925a277acbf8dc9bd3501c1.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/918150fc6711c949f2af15f2b6449d38.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/94d222d2a4fc03500b47dc500b1b6ffe.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/95979a0138515a5ac43f62029e0429bb.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/9cefd059f122498865f157f55313e2e2.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/9d4faa43fb6581532adbab601f211aab.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/9d798cbfdd1fa27c81585b0455fafc92.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/9e4ff522e258bd18204a8c7d42ed8359.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/a2e9a181d149dcafeb10796a0b78038f.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/a33a8e68f26d7c55ff4391e54165f532.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/ad1ce0c995abaa1845165b6fa35cbaa9.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/b12a08903b69817353e7e9e79316740a.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/b32177b593b9a9f2e73ad1c8f8ee7015.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/b4d959c2ef0ec9e5e55761cbe91c75ea.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/b55b6819441e78946b4b16c465c8cf34.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/b5e5c4b1cf4f6bc359be33decf4f1098.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/b93977940f52bd9033d3b08cc2e6b930.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/bd9b3ae6a48f108781a6b0b56bd680ee.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/bebd32b4865727973cfa91d83951e2a9.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/bf6e8470233b083ff25b73484cecf8ea.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/bfd6762161def7b10b927c595fb0acc8.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/c79d26a9235ef5a14a322822764ee861.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/c842d1b9ec2eb9154fd0b73f8c376de7.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/cd0b3137fd7d20480ce3fd83422d4353.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/d247eae6e843b8e2e10d40e5462f0b81.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/d5141b8e3699c49a034c732ce6343b78.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/d85e966d2b67d85921b687cd4fbaf7f7.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/dc41b3ab6680deccbfa7c867147b8775.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/e06205e430f81251bf6023bfcf866842.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/e4dce7025d47f488e48f2a7988c80bfd.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/e801f9bd41ae20fd50911a57dd8ba532.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/e86331386c186ce953e0e3cbe7895699.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/ebb155c5884e72c06edada5ffa5eba83.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/ecdae1c9d32578ab689ede3cf0e32fc1.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/ed18164bb5ebd1a876b2679abc620bec.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/ef9592ce2154fe1f9bfb1c6be45912d0.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/f49108fbe1faf37afb17fd7b9d7172bd.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/f718c9f96fb526f1e6a8dc3271a90634.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/fa39015021dc3330ae92bb66794d8c47.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/fcd2a7e9685908597d867a703f15d3e4.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/fcf488442b7345c2b862630d25d81196.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/dist/sweetalert2.all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/dist/sweetalert2.all.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/dist/sweetalert2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/dist/sweetalert2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/dist/sweetalert2.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/dist/sweetalert2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/SweetAlert.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/constants.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/globalState.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/instanceMethods.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/instanceMethods/_destroy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/instanceMethods/_main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/instanceMethods/buttons-handlers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/instanceMethods/close.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/instanceMethods/enable-disable-elements.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/instanceMethods/getInput.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/instanceMethods/hideLoading.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/instanceMethods/keydown-handler.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/instanceMethods/popup-click-handler.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/instanceMethods/progress-steps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/instanceMethods/update.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/instanceMethods/validation-message.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/privateMethods.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/privateProps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/scss/_animations.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/scss/_body.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/scss/_core.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/scss/_polyfills.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/scss/_theming.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/scss/_toasts-animations.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/scss/_toasts-body.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/scss/_toasts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/staticMethods.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/staticMethods/argsToParams.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/staticMethods/dom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/staticMethods/fire.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/staticMethods/mixin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/staticMethods/queue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/staticMethods/showLoading.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/staticMethods/timer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/sweetalert2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/sweetalert2.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/DismissReason.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/Timer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/aria.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/classes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/defaultInputValidators.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/dom/animationEndEvent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/dom/domUtils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/dom/getters.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/dom/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/dom/init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/dom/inputUtils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/dom/measureScrollbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/dom/parseHtmlToContainer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/dom/renderers/render.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/dom/renderers/renderActions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/dom/renderers/renderCloseButton.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/dom/renderers/renderContainer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/dom/renderers/renderContent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/dom/renderers/renderFooter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/dom/renderers/renderHeader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/dom/renderers/renderIcon.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/dom/renderers/renderImage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/dom/renderers/renderInput.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/dom/renderers/renderPopup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/dom/renderers/renderProgressSteps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/dom/renderers/renderTitle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/ieFix.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/iosFix.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/isNodeEnv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/openPopup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/params.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/scrollbarFix.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/setParameters.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/utils/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/src/variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sweetalert2/sweetalert2.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/vuex/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/vuex/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/vuex/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/vuex/dist/logger.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/vuex/dist/logger.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/vuex/dist/vuex.cjs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/vuex/dist/vuex.common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/vuex/dist/vuex.esm-browser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/vuex/dist/vuex.esm-browser.prod.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/vuex/dist/vuex.esm-bundler.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/vuex/dist/vuex.esm.browser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/vuex/dist/vuex.esm.browser.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/vuex/dist/vuex.esm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/vuex/dist/vuex.global.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/vuex/dist/vuex.global.prod.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/vuex/dist/vuex.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/vuex/dist/vuex.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/vuex/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/vuex/types/helpers.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/vuex/types/index.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/vuex/types/logger.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/vuex/types/vue.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/store/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/admin/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/admin/CategoryController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/admin/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/admin/PostController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/moment/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/moment/dist/locale/hi.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/dist/locale/hi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/moment/dist/moment.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/dist/moment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/moment/locale/hi.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/locale/hi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/moment/min/locales.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/min/locales.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/moment/min/locales.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/min/locales.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/moment/min/locales.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/min/locales.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/moment/min/moment-with-locales.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/min/moment-with-locales.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/moment/min/moment-with-locales.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/min/moment-with-locales.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/moment/min/moment-with-locales.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/min/moment-with-locales.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/moment/min/moment.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/min/moment.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/moment/min/moment.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/min/moment.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/moment/moment.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/moment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/moment/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/lib/create/from-string.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/lib/create/from-string.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/locale/hi.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/locale/hi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/moment.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/moment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/admin/category/create.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/admin/category/create.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/admin/category/edit.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/admin/category/edit.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/components/admin/category/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/admin/category/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/admin/post/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/admin/post/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/filter.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/filter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/adminmaster.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/adminmaster.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/admin/post/create.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/admin/post/create.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <ignored path="blog_using_laravel_vue_js.iws" />
@@ -277,22 +29,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/js/app.js">
+        <entry file="file://$PROJECT_DIR$/resources/js/store/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="44" column="18" selection-start-line="44" selection-start-column="11" selection-end-line="44" selection-end-column="18" />
-              <folding>
-                <element signature="e#27#50#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="391">
+              <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/js/store/index.js">
+        <entry file="file://$PROJECT_DIR$/resources/js/components/admin/post/create.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+            <state relative-caret-position="199">
+              <caret line="96" column="61" selection-start-line="96" selection-start-column="61" selection-end-line="96" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -300,8 +49,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admin/PostController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="4726">
+              <caret line="288" column="19" selection-start-line="288" selection-start-column="19" selection-end-line="288" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/js/components/admin/category/index.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1530">
+              <caret line="90" column="55" selection-start-line="90" selection-start-column="13" selection-end-line="90" selection-end-column="55" />
+              <folding>
+                <element signature="n#style#0;n#router-link#0;n#button#0;n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/js/components/admin/category/create.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -309,7 +79,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/admin/adminmaster.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
+            <state relative-caret-position="1156">
               <caret line="68" column="37" selection-start-line="68" selection-start-column="37" selection-end-line="68" selection-end-column="37" />
             </state>
           </provider>
@@ -318,8 +88,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/js/components/admin/post/index.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="85" column="50" selection-start-line="85" selection-start-column="43" selection-end-line="85" selection-end-column="50" />
+            <state relative-caret-position="204">
+              <caret line="12" column="63" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="63" />
               <folding>
                 <element signature="n#style#0;n#router-link#0;n#button#0;n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#template#0;n#!!top" expanded="true" />
               </folding>
@@ -330,21 +100,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="36" column="28" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/js/components/admin/category/index.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-20">
-              <caret line="1" column="6" selection-end-line="107" />
-              <folding>
-                <element signature="n#div#0;n#template#0;n#!!top" />
-                <element signature="n#style#0;n#router-link#0;n#button#0;n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="629">
+              <caret line="37" column="23" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -361,8 +118,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/js/routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-17">
-              <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+            <state relative-caret-position="459">
+              <caret line="34" column="32" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#59#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -398,20 +158,20 @@
         <option value="$PROJECT_DIR$/resources/js/components/ExampleComponent.vue" />
         <option value="$PROJECT_DIR$/resources/js/components/admin/AdminMaster.vue" />
         <option value="$PROJECT_DIR$/resources/js/components/admin/post/edit.vue" />
-        <option value="$PROJECT_DIR$/resources/js/components/admin/post/create.vue" />
         <option value="$PROJECT_DIR$/resources/js/components/admin/AdminHome.vue" />
-        <option value="$PROJECT_DIR$/resources/js/components/admin/category/create.vue" />
         <option value="$PROJECT_DIR$/resources/js/filter.js" />
-        <option value="$PROJECT_DIR$/resources/js/components/admin/category/index.vue" />
         <option value="$PROJECT_DIR$/resources/js/app.js" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/admin/CategoryController.php" />
         <option value="$PROJECT_DIR$/resources/js/components/admin/category/edit.vue" />
-        <option value="$PROJECT_DIR$/resources/js/routes.js" />
         <option value="$PROJECT_DIR$/resources/views/admin/adminmaster.blade.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
-        <option value="$PROJECT_DIR$/resources/js/components/admin/post/index.vue" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/admin/PostController.php" />
         <option value="$PROJECT_DIR$/resources/js/store/index.js" />
+        <option value="$PROJECT_DIR$/resources/js/components/admin/category/create.vue" />
+        <option value="$PROJECT_DIR$/resources/js/routes.js" />
+        <option value="$PROJECT_DIR$/resources/js/components/admin/post/index.vue" />
+        <option value="$PROJECT_DIR$/resources/js/components/admin/category/index.vue" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/admin/PostController.php" />
+        <option value="$PROJECT_DIR$/resources/js/components/admin/post/create.vue" />
       </list>
     </option>
   </component>
@@ -532,7 +292,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -644,11 +403,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../money_transfer" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../smartferiwala" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunDashboard">
@@ -690,12 +450,21 @@
       <workItem from="1602677644945" duration="12985000" />
       <workItem from="1602721776926" duration="1554000" />
       <workItem from="1603112159091" duration="566000" />
-      <workItem from="1603154623208" duration="2354000" />
+      <workItem from="1603154623208" duration="2772000" />
+      <workItem from="1603206807261" duration="1051000" />
+      <workItem from="1603239463165" duration="3394000" />
+      <workItem from="1603294256598" duration="682000" />
+      <workItem from="1603325856964" duration="5868000" />
+      <workItem from="1603556537001" duration="1332000" />
+      <workItem from="1604073231789" duration="1186000" />
+      <workItem from="1604157558405" duration="1815000" />
+      <workItem from="1604203812087" duration="580000" />
+      <workItem from="1604249211856" duration="35000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60160000" />
+    <option name="totallyTimeSpent" value="76521000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -708,10 +477,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="20" width="1280" height="688" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29918033" />
-      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18688525" />
+      <window_info id="Structure" order="1" weight="0.25409836" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -802,13 +570,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/components/admin/post/create.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/js/components/admin/AdminMaster.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -852,10 +613,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/components/admin/category/create.vue">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admin/CategoryController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="54" column="10" lean-forward="true" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
+        <state relative-caret-position="2635">
+          <caret line="162" column="52" selection-start-line="162" selection-start-column="52" selection-end-line="162" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -869,10 +630,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admin/CategoryController.php">
+    <entry file="file://$PROJECT_DIR$/resources/js/store/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2635">
-          <caret line="162" column="52" selection-start-line="162" selection-start-column="52" selection-end-line="162" selection-end-column="52" />
+        <state relative-caret-position="391">
+          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admin/PostController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4726">
+          <caret line="288" column="19" selection-start-line="288" selection-start-column="19" selection-end-line="288" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/components/admin/category/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="90" column="55" selection-start-line="90" selection-start-column="13" selection-end-line="90" selection-end-column="55" />
+          <folding>
+            <element signature="n#style#0;n#router-link#0;n#button#0;n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/components/admin/category/create.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/adminmaster.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="68" column="37" selection-start-line="68" selection-start-column="37" selection-end-line="68" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/components/admin/post/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="63" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="63" />
+          <folding>
+            <element signature="n#style#0;n#router-link#0;n#button#0;n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="23" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -885,57 +694,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/js/routes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/adminmaster.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="68" column="37" selection-start-line="68" selection-start-column="37" selection-end-line="68" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="36" column="28" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/components/admin/post/index.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="85" column="50" selection-start-line="85" selection-start-column="43" selection-end-line="85" selection-end-column="50" />
+        <state relative-caret-position="459">
+          <caret line="34" column="32" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="32" />
           <folding>
-            <element signature="n#style#0;n#router-link#0;n#button#0;n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="e#0#59#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/components/admin/category/index.vue">
+    <entry file="file://$PROJECT_DIR$/resources/js/components/admin/post/create.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-20">
-          <caret line="1" column="6" selection-end-line="107" />
-          <folding>
-            <element signature="n#div#0;n#template#0;n#!!top" />
-            <element signature="n#style#0;n#router-link#0;n#button#0;n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admin/PostController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/store/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        <state relative-caret-position="199">
+          <caret line="96" column="61" selection-start-line="96" selection-start-column="61" selection-end-line="96" selection-end-column="61" />
         </state>
       </provider>
     </entry>
